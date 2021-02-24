@@ -1,0 +1,44 @@
+body {
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+header{
+	margin: 10px 0px 0px 0px;
+	padding: 5px;
+}
+
+ul{
+	list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+	text-align: center;
+}
+
+nav{
+	display: block;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+li{
+	background-color: black;
+	padding: 5px;
+	margin: 5px;
+}
+
+a{
+	font-size: 20px;
+	margin: 10px;
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+main{
+	padding: 10px;
+}

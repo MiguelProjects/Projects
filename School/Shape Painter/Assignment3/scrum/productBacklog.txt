@@ -1,0 +1,38 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+
+
+
+--------------------------------------------------------------------------
+TYPE     : BUG 3.4: UTORID : STATUS : NotStarted (NotStarted,InProgress, Incomplete,Complete)
+NAME     : Visitor1: Improve architecture for drawing
+OWNER    :
+PRIORITY : 3
+ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :  
+AS A     : 
+ISSUE    :
+DEPENDSON: 
+IMPL DTL : 
+
+Impose the Visitor Design Pattern on the Model (PaintModel and PaintCommands).
+This results in all drawing functionality being moved out of the Model.
+That is, after this BUG is complete, an appropriate DrawingVisitor will 
+visit the PaintModel and render the screen using 
+a graphics context. Some Model methods may be removed after this.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 3.5: UTORID : STATUS : NotStarted (NotStarted,InProgress, Incomplete,Complete)
+NAME     : Visitor2: Improve architecture for save
+OWNER    :
+PRIORITY : 4
+ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :  
+AS A     : 
+ISSUE    :
+DEPENDSON: USER STORY 3.2 and USER STORY 3.4
+IMPL DTL : 
+
+Now that USER STORY 3.2 and 3.4 are in place...
+
+Apply the Visitor Design Pattern to the save function. After this, the model 
+will not implement the save function, so you should remove PaintModel.save.
+--------------------------------------------------------------------------

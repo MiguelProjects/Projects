@@ -1,0 +1,115 @@
+// Noun is includes of Object and Food
+// Nonsensical are words that either sound fake or are fake - they can be used wherever
+// Swear includes Cunt
+
+#Adjective
+Undeserving
+Spaghetti
+Comedic
+Errant
+Yellow-Bellied
+Stinky
+Terribad
+Moronic
+Bloody
+Damned
+Grand
+Undesirable
+Eldritch
+Humorless
+Puny
+Bawdy
+Artless
+Craven
+Insecure
+
+#Cunt
+Cunt
+Khunt
+Bellend
+Knob
+Nonce
+Sod
+Bollock
+Dick
+
+#Swear
+Fuck
+Ass
+Asshole
+Shit
+Arse
+Bitch
+
+#Affilation
+Socialist
+Fascist
+Communist
+Anarchist
+Primitive
+Tribalist
+Cultist
+Republican
+Democrat
+Conservative
+Liberal
+Rebel
+Imperial
+
+#Object
+Trash Can
+Dumpster Fire
+Tool
+Hammer
+Shoe
+Box
+Baseball
+Weathered Glove
+Canoe
+Baloon
+
+#Food
+Slice of Pizza
+Meatloaf
+Dill
+Tomato
+Grilled Chiken
+Salad
+Foot Salad
+Waffle
+
+#Noun
+Neanderthal
+Monkey
+Cow
+Mouth Breather
+Abomination
+Horse
+Feet Sniffer
+Wanker
+Apple-John
+Toilet Bowl
+Canker Blossom
+Goblin
+Gremlin
+Scum
+Waste Of Skin
+Thot
+Motherfucker
+
+#Shakespearean
+Your hamster is unintelligent
+I fart at you
+I shall walk backwards, away from your scent
+Feh
+Your mother smells of feces, you louse
+I blow my nose at you
+You make me want to commit reverse life
+Your father is a drunk and your mum's a cow
+BEGONE UNTRUTHFUL WENCH
+
+//#Compliment
+
+//#Nonsenical
+
+EOF

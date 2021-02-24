@@ -1,0 +1,148 @@
+body {
+	margin: 10px;
+	color:black;
+    background-color: rgb(230, 208, 159);
+	border: 2px solid rgb(68, 36, 36);
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+header{
+	margin: 10px 0px 0px 0px;
+	padding: 5px;
+}
+
+ul{
+	list-style-type: none; /* Remove bullets */
+    padding: 0px; 
+    margin: 0px;
+	text-align: center;
+
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 2;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+}
+  
+
+nav{
+	border: 2px solid rgb(68, 36, 36);
+}
+
+li{
+	
+	flex-grow: 1;
+	flex-shrink: 2;
+	
+	background-color: rgb(68, 47, 36);
+	padding: 10px;
+	margin: 5px;
+}
+
+a{
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+h1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main{
+	padding: 10px;
+}
+
+/* FROGS -----------------------------------------------------*/
+.frogs{
+	display: flex;
+	/* i made the background white because of the frog gifs being white and not transparent :( */
+	background-color: white;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 10px;
+}
+
+.frogs form{
+	padding: 10px;
+}
+
+.frogs input[type=submit]{
+	padding: 5px 15px 5px 15px;
+}
+
+/* when small flex do stuff */
+@media screen and (max-width: 500px) {
+	/* as long as its smaller than 485px */
+	ul {
+	  flex-direction: column;
+	}
+
+	.frogs{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+
+	.frogs form{
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+	}
+
+  }
+
+.stats {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.stats a{
+	color: black;
+}
+
+.allStats td{
+	border: 2px solid rgb(68, 36, 36);
+	padding: 10px;
+}
+
+/* below are the nav current page items: */
+li.current{
+	flex-grow: 1;
+	flex-shrink: 2;
+	
+	background-color: orange;
+	padding: 10px;
+	margin: 5px;
+}
+a.current{
+	font-size: 18px;
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+/* when big stats do stuff */
+@media screen and (min-width: 700px) {
+	/* as long as its bigger than 700px */
+	main{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.stats {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		border: 2px solid rgb(68, 36, 36);
+		padding: 10px;
+	}
+  }

@@ -1,0 +1,140 @@
+body {
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+header{
+	margin: 10px 0px 0px 0px;
+	padding: 5px;
+}
+
+ul{
+	list-style-type: none; /* Remove bullets */
+    padding: 0px; /* Remove padding */
+    margin: 0px; /* Remove margins */
+	text-align: center;
+
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 2;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+}
+  
+
+nav{
+	border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+nav{
+	border: 1px solid rgb(0, 0, 0);
+}
+
+li{
+	
+	flex-grow: 1;
+	flex-shrink: 2;
+	
+	background-color: black;
+	padding: 10px;
+	margin: 5px;
+}
+
+a{
+	
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+h1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section{
+	/* border: 1px solid rgb(0, 0, 0); */
+}
+
+main{
+	padding: 10px;
+}
+
+/* FROGS -----------------------------------------------------*/
+.frogs{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	/* border: 1px solid rgb(0, 0, 0); */
+}
+
+.frogs form{
+	padding: 10px;
+}
+
+.frogs input[type=submit]{
+	font-size: 30px;
+	padding: 5px 15px 5px 15px;
+	color: rgb(218, 60, 233);
+}
+
+/* when small flex do stuff */
+@media screen and (max-width: 500px) {
+	/* as long as its smaller than 485px */
+	ul {
+	  flex-direction: column;
+	}
+
+	.frogs{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+
+	.frogs form{
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+	}
+
+  }
+
+/* below are the nav current page items: */
+li.current{
+	flex-grow: 1;
+	flex-shrink: 2;
+	
+	background-color: orange;
+	padding: 10px;
+	margin: 5px;
+}
+a.current{
+	font-size: 18px;
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+/* when big stats do stuff */
+@media screen and (min-width: 700px) {
+	/* as long as its bigger than 700px */
+	main{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.stats {
+		width: 25%;
+		border: 1px solid black;
+		padding: 10px;
+	}
+  }
