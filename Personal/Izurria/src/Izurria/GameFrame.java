@@ -60,7 +60,8 @@ public class GameFrame extends JFrame{
     this.setResizable(false);
     this.setLocationRelativeTo(null);
     this.setVisible(true);
-    playSound();
+    //playSound();
+    //due to the size of the music file, I have disabled the background music
   }
   /**
    * loops the background music 
