@@ -1,4 +1,11 @@
-I do not possess a cuda capable machine currently and am unable to properly test this code. However, I have included the original assignment handout should you wish to look through it. 
+Some of this code is not mine, it is provided by the class I was taking as starter code for the assignment. The code I had a hand in are:
+- kernel1.cu - kernel5.cu
+- bestcpu.cu
+- util.cu
+- reduction_kernel.h
+The other files are either completely made by someone else or involve contributions so minor they are not noteworthy.
+
+I do not possess access to a cuda capable machine currently and am unable to properly test this code. However, I have included the original assignment handout should you wish to look through it. 
 
 If you do not want to look through it and simply want to run it then read the following:
 
